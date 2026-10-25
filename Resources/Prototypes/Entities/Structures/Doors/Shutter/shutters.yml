@@ -70,6 +70,18 @@
   - type: Airtight
   - type: RadiationBlocker
     resistance: 2
+  - type: Damageable
+    damageModifierSet: StructuralMetallic
+  - type: Injurable
+    damageContainer: StructuralInorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1500
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
   - type: DoorSignalControl
   - type: DeviceNetwork
     deviceNetId: Wireless
