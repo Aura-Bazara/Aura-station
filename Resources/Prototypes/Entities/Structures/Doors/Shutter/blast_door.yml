@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ BaseShutter, StructureHealthDoorStrong ]
+  parent: BaseShutter
   id: BlastDoor
   name: blast door
   description: Blast-retardant AND fire-retardant!
@@ -39,7 +39,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 350
+        damage: 1500
       behaviors:
       - !type:PlaySoundBehavior
         sound:
