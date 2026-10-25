@@ -15,3 +15,14 @@
   - type: Sprite
     sprite: _Sunrise/Structures/Doors/Shutters/blastdoor.rsi
     state: assembly
+
+- type: !PartialOnly entity
+  id: FishBlastDoor
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Structures/Doors/Shutters/blastdoor.rsi
+    layers: !Clear
+    - state: closed
+      map: ["enum.DoorVisualLayers.Base"]
+    - state: welded
+      map: ["enum.WeldableLayers.BaseWelded"]

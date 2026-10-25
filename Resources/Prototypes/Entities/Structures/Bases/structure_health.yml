@@ -250,7 +250,7 @@
         damage: 200
       behaviors: *DoDestruction
 
-# High-security airlocks
+# High-security airlocks / blast doors
 - type: entity
   abstract: true
   parent: BaseStructureHealth

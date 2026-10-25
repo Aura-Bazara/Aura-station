@@ -17,3 +17,5 @@ ent-BlastDoorXenoborg = гермозатвор ксеноборгов
 ent-BlastDoorXenoborgOpen = { ent-BlastDoorXenoborg }
     .suffix = Открытый
     .desc = { ent-BlastDoorXenoborg.desc }
+ent-FishBlastDoor = гермозатвор
+    .desc = Имеется надпись "ОПАСНОСТЬ ВЗРЫВА".

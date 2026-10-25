@@ -12,3 +12,5 @@ ent-BlastDoorXenoOpen = { ent-BlastDoorXeno }
     .desc = { ent-BlastDoorXeno.desc }
 ent-BlastDoorXenoFrame = xeno blast door frame
     .desc = This one says 'BLAST DONGER'.
+ent-FishBlastDoor = blast door
+    .desc = This one says 'BLAST DONGER'.
