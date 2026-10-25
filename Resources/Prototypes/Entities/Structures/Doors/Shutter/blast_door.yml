@@ -51,6 +51,14 @@
     messagePerceivedByOthers: comp-window-knock
     interactSuccessSound:
       path: /Audio/Effects/glass_knock.ogg
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1500
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
 
 - type: entity
   id: BlastDoorOpen
@@ -67,6 +75,7 @@
     airBlocked: false
   - type: RadiationBlocker
     enabled: false
+
 
 - type: entity
   id: BlastDoorFrame
