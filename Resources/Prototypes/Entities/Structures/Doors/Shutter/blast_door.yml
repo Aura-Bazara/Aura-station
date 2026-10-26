@@ -221,6 +221,7 @@
 - type: entity
   parent: BaseShutter
   id: FishBlastDoor
+  suffix: Fish
   name: blast door
   description: Blast-retardant AND fire-retardant!
   components:

@@ -16,6 +16,7 @@
     sprite: _Sunrise/Structures/Doors/Shutters/blastdoor.rsi
     state: assembly
 
+# Fish-start
 - type: !PartialOnly entity
   id: FishBlastDoor
   components:
@@ -26,3 +27,4 @@
       map: ["enum.DoorVisualLayers.Base"]
     - state: welded
       map: ["enum.WeldableLayers.BaseWelded"]
+# Fish-end

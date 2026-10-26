@@ -1,3 +1,4 @@
+# Fish-start
 - type: entity
   abstract: true
   parent: BaseStructure
@@ -112,6 +113,7 @@
   - type: StructureAligner
   - type: StructureAlignerPylon
 
+# Fish-end
 - type: entity
   id: ShuttersNormal
   parent: [BaseDeltaPressureGlass, BaseShutter, StructureHealthDoorWeak]
