@@ -218,6 +218,7 @@
   - type: RadiationBlocker
     enabled: false
 
+# Fish-start
 - type: entity
   parent: BaseShutter
   id: FishBlastDoor
@@ -285,3 +286,4 @@
     mode: NoSprite
   - type: PlacementReplacement
     key: blastdoors
+# Fish-end
