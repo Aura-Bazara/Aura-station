@@ -1635,7 +1635,7 @@ DrinkWaterJug: JugWater
 #2026-09-05
 AsimovCircuitBoard: CrewsimovCircuitBoard
 
-# Fish-start
+# region Fish-start
 BigRedThruster: ThrusterLarge
 BigThruster: ThrusterLarge
 HugeRedThruster: ThrusterLarge
@@ -1655,4 +1655,4 @@ HighSecCentralCommandLocked: AirlockCentralCommandLocked
 HighSecArmoryLocked: AirlockArmoryLocked
 HighSecCaptainLocked: AirlockCaptainLocked
 BlastDoor: FishBlastDoor
-# Fish-end
+# region Fish-end
