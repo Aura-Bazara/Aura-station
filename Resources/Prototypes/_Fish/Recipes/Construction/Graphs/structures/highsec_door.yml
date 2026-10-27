@@ -1,5 +1,5 @@
 - type: constructionGraph
-  id: SunriseHighSecDoorConstruction
+  id: FishHighSecDoorConstruction
   start: start
   graph:
   - node: start
@@ -14,7 +14,7 @@
         doAfter: 2
 
   - node: assembly
-    entity: SunriseHighSecDoorAssembly
+    entity: FishHighSecDoorAssembly
     actions:
     - !type:SnapToGrid {}
     - !type:SetAnchor {}

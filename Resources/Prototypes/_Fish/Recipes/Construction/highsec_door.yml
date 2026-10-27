@@ -1,5 +1,5 @@
 - type: construction
   parent: BaseStructureFullTile
-  id: SunriseHighSecDoorConstruction
-  graph: SunriseHighSecDoorConstruction
+  id: FishHighSecDoorConstruction
+  graph: FishHighSecDoorConstruction
   targetNode: highSecDoor

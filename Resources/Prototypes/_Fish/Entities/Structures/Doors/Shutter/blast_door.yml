@@ -1,9 +1,9 @@
 - type: entity
-  parent: BaseShutter
+  parent: BlastDoor
   id: FishBlastDoor
   suffix: Fish
   name: blast door
-  description: Blast-retardant AND fire-retardant!
+  description: This one says 'BLAST DONGER'.
   components:
   - type: AccessReader
     containerAccessProvider: board
@@ -37,7 +37,7 @@
   - type: Damageable
     damageModifierSet: PlasteelStaticMod
   - type: Destructible
-    thresholds:
+    thresholds: !Clear
     - trigger:
         !type:DamageTrigger
         damage: 1500
