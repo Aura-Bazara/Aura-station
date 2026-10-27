@@ -39,7 +39,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 350
+        damage: 400  # Fish-edit: порог совпадает с StructureHealthDoorStrong
       behaviors:
       - !type:PlaySoundBehavior
         sound:
