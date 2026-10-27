@@ -124,7 +124,7 @@
     node: frame1
 
 - type: entity
-  parent: BlastDoor
+  parent: FishBlastDoor # Fish-edit: повышенная прочность
   id: BlastDoorXeno
   name: exodermis blast door
   description: Don't lose an arm!
@@ -176,7 +176,7 @@
     state: assembly
 
 - type: entity
-  parent: BlastDoor
+  parent: FishBlastDoor # Fish-edit: повышенная прочность мехадермисной двери
   id: BlastDoorXenoborg
   name: mechadermis blast door
   description: Don't lose a head!
@@ -217,73 +217,3 @@
     airBlocked: false
   - type: RadiationBlocker
     enabled: false
-
-# Fish-start
-- type: entity
-  parent: BaseShutter
-  id: FishBlastDoor
-  suffix: Fish
-  name: blast door
-  description: Blast-retardant AND fire-retardant!
-  components:
-  - type: AccessReader
-    containerAccessProvider: board
-  - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/airlock-blastdoor.rsi
-    layers:
-    - state: closed
-      map: ["enum.DoorVisualLayers.Base"]
-    - state: welded
-      sprite: Structures/Doors/Airlocks/Effects/airlock-effects.rsi
-      map: ["enum.WeldableLayers.BaseWelded"]
-  - type: Door
-    closeTimeOne: 0.4
-    closeTimeTwo: 0.4
-    openTimeOne: 0.4
-    openTimeTwo: 0.4
-    openingAnimationTime: 1.0
-    closingAnimationTime: 1.0
-    canPry: false
-    crushDamage:
-      types:
-        Blunt: 25 # yowch
-    openSound:
-      path: /Audio/Machines/blastdoor.ogg
-    closeSound:
-      path: /Audio/Machines/blastdoor.ogg
-  - type: Occluder
-  - type: Appearance
-  - type: RadiationBlocker
-    resistance: 8
-  - type: Damageable
-    damageModifierSet: PlasteelStaticMod
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 1500
-      behaviors:
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalBreak
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronics ]
-  - type: Construction
-    graph: BlastDoor
-    node: blastdoor
-    containers:
-    - board
-  - type: StaticPrice
-    price: 500
-  - type: InteractionPopup
-    interactSuccessString: comp-window-knock
-    messagePerceivedByOthers: comp-window-knock
-    interactSuccessSound:
-      path: /Audio/Effects/glass_knock.ogg
-  - type: IconSmooth
-    key: walls
-    mode: NoSprite
-  - type: PlacementReplacement
-    key: blastdoors
-# Fish-end

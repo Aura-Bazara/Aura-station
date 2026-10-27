@@ -25,7 +25,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 400
+        damage: 400 # Fish-edit: повышен порог разрушения двери высокого уровня безопасности
       behaviors:
       - !type:SpawnEntitiesBehavior
         spawn:

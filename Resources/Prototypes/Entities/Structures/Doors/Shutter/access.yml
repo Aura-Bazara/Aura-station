@@ -1,7 +1,7 @@
 #Blast door
 
 - type: entity
-  parent: BlastDoor
+  parent: FishBlastDoor # Fish-edit: повышенная прочность
   id: BlastDoorCentralCommand
   suffix: Central Command, Locked
   components:
