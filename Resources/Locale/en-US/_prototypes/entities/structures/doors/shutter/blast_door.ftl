@@ -12,7 +12,8 @@ ent-BlastDoorXenoOpen = { ent-BlastDoorXeno }
     .desc = { ent-BlastDoorXeno.desc }
 ent-BlastDoorXenoFrame = xeno blast door frame
     .desc = This one says 'BLAST DONGER'.
-# Fish-start
+# Fish-start: добавлен суффикс форка для FishBlastDoor
 ent-FishBlastDoor = blast door
+    .suffix = Fish
     .desc = This one says 'BLAST DONGER'.
 # Fish-end

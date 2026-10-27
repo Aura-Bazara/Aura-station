@@ -17,7 +17,8 @@ ent-BlastDoorXenoborg = гермозатвор ксеноборгов
 ent-BlastDoorXenoborgOpen = { ent-BlastDoorXenoborg }
     .suffix = Открытый
     .desc = { ent-BlastDoorXenoborg.desc }
-# Fish-start
+# Fish-start: добавлен суффикс форка для FishBlastDoor
 ent-FishBlastDoor = гермозатвор
+    .suffix = Fish
     .desc = Имеется надпись "ОПАСНОСТЬ ВЗРЫВА".
 # Fish-end
