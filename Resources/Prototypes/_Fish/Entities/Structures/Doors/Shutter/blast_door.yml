@@ -1,5 +1,5 @@
 - type: entity
-  parent: BlastDoor
+  parent: [BaseShutter]
   id: FishBlastDoor
   suffix: Fish
   name: blast door
@@ -42,9 +42,12 @@
         !type:DamageTrigger
         damage: 1500
       behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
       - !type:PlaySoundBehavior
         sound:
           collection: MetalBreak
+
   - type: ContainerFill
     containers:
       board: [ DoorElectronics ]
