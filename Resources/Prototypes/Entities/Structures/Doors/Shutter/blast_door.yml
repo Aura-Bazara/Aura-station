@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ BaseShutter, StructureHealthDoorStrong ]
+  parent: [BaseShutter, StructureHealthDoorStrong]
   id: BlastDoor
   name: blast door
   description: Blast-retardant AND fire-retardant!
@@ -39,7 +39,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 400  # Fish-edit: порог совпадает с StructureHealthDoorStrong
+        damage: 1500 # Fish-edit: синхронизация звука разрушения с порогом разрушения
       behaviors:
       - !type:PlaySoundBehavior
         sound:
@@ -66,7 +66,7 @@
     key: blastdoors
 
 - type: entity
-  parent: FishBlastDoor # Fish-edit: наследуем повышенную прочность
+  parent: BlastDoor
   id: BlastDoorOpen
   suffix: Open
   components:
@@ -124,7 +124,7 @@
     node: frame1
 
 - type: entity
-  parent: FishBlastDoor # Fish-edit: повышенная прочность
+  parent: BlastDoor
   id: BlastDoorXeno
   name: exodermis blast door
   description: Don't lose an arm!
@@ -176,7 +176,7 @@
     state: assembly
 
 - type: entity
-  parent: FishBlastDoor # Fish-edit: повышенная прочность мехадермисной двери
+  parent: BlastDoor
   id: BlastDoorXenoborg
   name: mechadermis blast door
   description: Don't lose a head!

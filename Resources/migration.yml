@@ -1654,5 +1654,4 @@ HighSecCommandLocked: AirlockCommandLocked
 HighSecCentralCommandLocked: AirlockCentralCommandLocked
 HighSecArmoryLocked: AirlockArmoryLocked
 HighSecCaptainLocked: AirlockCaptainLocked
-BlastDoor: FishBlastDoor
 # region Fish-end

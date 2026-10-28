@@ -1,8 +1,0 @@
-- type: entity
-  parent: AirlockAssemblyHighSec
-  id: FishHighSecDoorAssembly
-  suffix: Fish
-  components:
-  - type: Construction
-    graph: FishHighSecDoorConstruction
-    node: assembly

@@ -2,7 +2,7 @@
 
 - type: entity
   id: BlastDoorExterior1
-  parent: FishBlastDoor # Fish-edit: повышенная прочность
+  parent: BlastDoor
   suffix: Autolink, Ext1
   components:
   - type: AutoLinkReceiver
@@ -19,7 +19,7 @@
 
 - type: entity
   id: BlastDoorExterior2
-  parent: FishBlastDoor # Fish-edit: повышенная прочность внешней двери
+  parent: BlastDoor
   suffix: Autolink, Ext2
   components:
   - type: AutoLinkReceiver
@@ -36,7 +36,7 @@
 
 - type: entity
   id: BlastDoorExterior3
-  parent: FishBlastDoor # Fish-edit: повышенная прочность внешней двери
+  parent: BlastDoor
   suffix: Autolink, Ext3
   components:
   - type: AutoLinkReceiver
@@ -53,7 +53,7 @@
 
 - type: entity
   id: BlastDoorBridge
-  parent: FishBlastDoor # Fish-edit: повышенная прочность двери мостика
+  parent: BlastDoor
   suffix: Autolink, Bridge
   components:
     - type: AccessReader
@@ -85,7 +85,7 @@
 
 - type: entity
   id: BlastDoorEngineering
-  parent: FishBlastDoor # Fish-edit: повышенная прочность двери инженерного отдела
+  parent: BlastDoor
   suffix: Autolink, Engineering
   components:
   - type: AccessReader
@@ -117,7 +117,7 @@
 
 - type: entity
   id: BlastDoorScience
-  parent: FishBlastDoor # Fish-edit: повышенная прочность двери научного отдела
+  parent: BlastDoor
   suffix: Autolink, Science
   components:
   - type: AccessReader
@@ -149,7 +149,7 @@
 
 - type: entity
   id: BlastDoorWindows
-  parent: FishBlastDoor # Fish-edit: повышенная прочность двери оконного отдела
+  parent: BlastDoor
   suffix: Autolink, Windows
   components:
   - type: AutoLinkReceiver
